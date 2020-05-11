@@ -6,7 +6,4 @@ B.pop()
 C=[]
 for x in B:
     C.append(len(x))
-
-print(B)
 print(C)
-
