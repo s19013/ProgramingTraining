@@ -7,10 +7,11 @@ C={}
 
 for x, y in enumerate(B):
     # print(x,y)
-    if x==0 or 4<=x<=9 or x==14 or x==15 or x==18:
-        C[y[0]]=x
+    a = x + 1 
+    if a==0 or 4<=a<=9 or a==14 or a==15 or a==18:
+        C[y[0]]=a
     else:
-        C[y[0:2]]=x
+        C[y[0:2]]=a
 
 
 print(C)
