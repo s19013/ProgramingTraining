@@ -10,5 +10,8 @@ def letter_bigram():
             list.append(B)
     return list
 
-print(words_bigram())
+
+print("letter_bigram")
 print(letter_bigram())
+print("words_bigram")
+print(words_bigram())
